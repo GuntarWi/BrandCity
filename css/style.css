@@ -175,6 +175,12 @@
     text-align: center;
 }
 
+.col-1 h3{
+    margin-bottom: 9px;
+}
+
+
+
 .t-link{
     color: skyblue;
 }
@@ -184,9 +190,9 @@
     background-color: deepskyblue;
     color: #ffffff;
     padding: 10px 70px 10px 70px;
-    margin-bottom: 5px;
     border-radius: 2px;
     display: block;
+    margin-bottom: 22px;
 }
 
 .link{
@@ -206,16 +212,16 @@
 }
 .list-a{
     list-style: none;
-    margin-right: 52px;
+    margin-right: 60px;
     margin-top: 29px;
     margin-bottom: 20px;
 }
 
 .list-b{
     list-style: none;
-    margin-right: 52px;
+    margin-right: 60px;
     position: relative;
-    top: -69px;
+    top: -64px;
 }
 .list-c{
     list-style: none;
@@ -242,8 +248,8 @@
 .footer-soc{
     left: 55px;
     position: relative;
-    bottom: 98px;
-    font-size: 32px;
+    bottom: 35px;
+    font-size: 40px;
     color: #cccccc;
 }
 
@@ -257,7 +263,7 @@
     height: 190px;
     background-color: #444444;
     position: relative;
-    left: 100px;
+    left: 210px;
     bottom: 50px;
 
 }
@@ -266,7 +272,7 @@
     text-decoration: none;
     background-color: #f2a622;
     color: #ffffff;
-    padding: 10px 70px 10px 70px;
+    padding: 10px 60px 10px 70px;
     position: relative;
     top: 15px;
     margin-left: 20px;
@@ -282,6 +288,8 @@
 .email-box p {
     color: #cccccc;
     margin-left: 20px;
+    font-size: 12px;
+    max-width: 174px;
 
 }
 
@@ -303,6 +311,8 @@
     display: inline-block;
     list-style: none;
     margin-top: 23px;
+    position: relative;
+    bottom: 20px
 }
 
 .footer-app{
@@ -312,32 +322,43 @@
 .apple{
     margin-right: 40px;
     margin-top: 29px;
+    margin-bottom: 24px;
 }
 
 .android{
     width: 114px;
     margin-top: 29px;
+    margin-bottom: 24px;
 }
 
 
 .inline > li:nth-child(1) {
     color: #9f9f9f;
     font-size: 18px;
+    font-family: ‘Metrophobic’, Arial, serif;
+    font-weight: 800;
 
 }
 .inline > li:nth-child(2) {
-    font-size: 8px;
+    font-size: 10px;
     color: #9f9f9f;
+    font-family: ‘Metrophobic’, Arial, serif;
+    font-weight: 800;
+    position: relative;
+    top: -7px;
 }
 .inline > li:nth-child(3) {
     font-size: 15px;
     color: #9f9f9f;
+    position: relative;
+    top: -11px;
+    font-family: ‘Metrophobic’, Arial, serif;
 }
 
 .norton{
     width: 114px;
     margin-left: 518px;
-    margin-top: -66px;
+    margin-top: -78px;
     position: absolute;
 
 }
