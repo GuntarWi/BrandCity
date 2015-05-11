@@ -2,6 +2,7 @@
 *{
     margin: 0 auto;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;;
 }
 .continer{
     width: 1366px;
@@ -228,9 +229,16 @@
 
 .footer-list > ul > li{
     color: #cccccc;
-    padding-bottom: 16px;
+    padding-bottom: 15px;
 }
 
+.footer-list ul > li:first-child{
+    font-size: 18px;
+}
+
+.samll{
+    font-size: 12px;
+}
         /*+++++++++Footer-Soc++++++++*/
 
 .footer-soc{
@@ -244,6 +252,7 @@
 .footer-soc ul{
     list-style: none;
 }
+
         /*+++++++++Footer-Subscribe++++++++*/
 .email-box{
     width: 240px;
