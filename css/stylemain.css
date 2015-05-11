@@ -1,0 +1,91 @@
+/*==========Normalize=======*/
+body{
+    margin: 0;
+    padding: 0;
+}
+.continer{
+    width: 1366px;
+}
+/*==========Nav Bar=======*/
+.nav-bar{
+    margin-left: 136px;
+}
+
+.nav{
+    height: 64px;
+    width: 1366px;
+    float: left;
+    line-height: 30px;
+    text-align: center;
+    background-color: #1A587F;
+}
+.nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav ul li {
+    float: left;
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav li{
+    text-decoration: none;
+    color: white;
+}
+
+.nav ul li li{
+    background-color: cornflowerblue;
+    color: #ffffff;
+    display: none;
+}
+
+/*==========Nav Bar Elements=======*/
+
+#logo{
+    margin-right: 44px;
+}
+.fa-whatsapp{
+    margin-right: 6px;
+}
+
+.fa-heart{
+    margin-right: 6px;
+}
+
+#users{
+    margin-left: -66px;
+    margin-right: 115px;
+}
+
+.fa-phone{
+    margin-right: 8px;
+}
+
+.line{
+    border: 1px solid #ffffff;
+    display: inline;
+}
+
+.fa-angle-down{
+    margin-left: 14px;
+    margin-right: 0px;
+}
+
+#en{
+    margin: 0px;
+}
+
+#euro{
+    margin: 0px;
+}

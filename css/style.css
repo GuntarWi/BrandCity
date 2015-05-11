@@ -1,0 +1,320 @@
+/*==========Normalize=======*/
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+.continer{
+    width: 1366px;
+}
+
+.row{
+    display: inline-block;
+}
+
+.col{
+    max-width: 250px;
+    list-style: none;
+}
+
+/*==========Nav Bar=======*/
+.nav-bar{
+    width: 970px;
+    height: 64px;
+    margin-right: 203px;
+    margin-left: 203px;
+
+}
+
+.nav-bar li {
+    display: inline-block;
+    color: white;
+    padding-top: 19px;
+}
+
+.nav{
+    background-color: #1A587F;
+    
+}
+
+
+/*==========Nav Bar Elements=======*/
+
+#logo{
+    margin-right: 44px;
+}
+.fa-whatsapp{
+    margin-right: 6px;
+}
+
+.fa-heart{
+    margin-right: 6px;
+}
+
+#users{
+    margin-right: 115px;
+}
+
+.fa-phone{
+    margin-right: 8px;
+}
+
+.line{
+    border: 1px solid #ffffff;
+    display: inline;
+}
+
+.fa-angle-down{
+    margin-left: 14px;
+}
+
+#en{
+    margin-right: 33px;
+}
+
+#euro{
+    margin: 0px;
+}
+
+#phone{
+    margin-right: 14px;
+    padding-right: 26px;
+}
+
+.line{
+    border: solid 1px black ;
+    display: inline-block;
+    height: 31px;
+    margin-left: 24px;
+    margin-right: 26px;
+}
+
+#euro{
+    margin-right: 33px;
+}
+
+.nav-bar-under li{
+    padding: 0px;
+    margin-left: 482px;
+    font-size: 11px;
+    color: #a8b8c6;
+}
+
+.drop-test{
+    display: none;
+}
+/*==========Header=======*/
+
+.header{
+    background-image: url("../img/milan-bg.jpg");
+    background-repeat: no-repeat;
+    height: 480px;
+}
+
+.header-intro{
+    text-align: center;
+    color: white;
+    padding-top: 160px;
+}
+
+.header-list{
+    padding-top: 132px;
+}
+
+.header-table {
+    border-style: hidden;
+}
+
+.header-list tr td{
+    border-style: hidden;
+}
+
+/*==========Contact =======*/
+.contact{
+    background-color: #ffffff;
+}
+.contact-content{
+    width: 960px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.contact-content h2,h1 {
+    color: #777777;
+    padding-right: 10px;
+}
+
+.contact-header{
+    text-align: center;
+}
+
+.norton-a{
+    width: 30px;
+}
+
+.contact-block p{
+    max-width: 240px;
+    font-size: 13px;
+}
+
+.col{
+    font-size: 15px;
+}
+
+.col-b{
+    position: relative;
+    bottom: 50px;
+    margin-right: 120px;
+}
+.col-a{
+    margin-right: 65px;
+}
+
+        /*+++++++++Contact down row++++++++*/
+.col-1{
+    background-color: #eeeeee;
+}
+
+.col-1-a{
+    padding-left: 40px;
+}
+/*==========Footer-a=======*/
+
+
+.footer-a{
+    background-color: #555555;
+}
+
+        /*+++++++++Footer-a List++++++++*/
+.footer-list{
+    margin-left: 203px;
+}
+.list-a{
+    list-style: none;
+    margin-right: 52px;
+    margin-top: 29px;
+    margin-bottom: 20px;
+}
+
+.list-b{
+    list-style: none;
+    margin-right: 52px;
+    position: relative;
+    top: -69px;
+}
+.list-c{
+    list-style: none;
+}
+
+.footer-list > ul > li:nth-child(1){
+    color: #cccccc;
+    padding-bottom: 25px;
+
+}
+
+.footer-list > ul > li{
+    color: #cccccc;
+    padding-bottom: 16px;
+}
+
+        /*+++++++++Footer-Soc++++++++*/
+
+.footer-soc{
+    left: 55px;
+    position: relative;
+    bottom: 98px;
+    font-size: 32px;
+    color: #cccccc;
+}
+
+.footer-soc ul{
+    list-style: none;
+}
+        /*+++++++++Footer-Subscribe++++++++*/
+.email-box{
+    width: 240px;
+    height: 190px;
+    background-color: #444444;
+    position: relative;
+    left: 100px;
+    bottom: 50px;
+
+}
+
+.email-box a {
+    text-decoration: none;
+    background-color: #f2a622;
+    color: #ffffff;
+    padding: 10px 70px 10px 70px;
+    position: relative;
+    top: 15px;
+    margin-left: 20px;
+    border-radius: 2px;
+}
+
+.email-box h4 {
+    padding-top: 22px;
+    color: #ededed;
+    margin-left: 20px;
+}
+
+.email-box p {
+    color: #cccccc;
+    margin-left: 20px;
+
+}
+
+.email-box input{
+    margin-left: 20px;
+    width: 199px;
+    height: 32px;
+}
+
+/*==========Footer-b=======*/
+
+.footer-b{
+    background-color: #2a2a2a;
+}
+.footer-continer-b{
+    margin-left: 203px;
+}
+.inline{
+    display: inline-block;
+    list-style: none;
+    margin-top: 23px;
+}
+
+.footer-app{
+    display: inline-block;
+    margin-left: 134px;
+}
+.apple{
+    margin-right: 40px;
+    margin-top: 29px;
+}
+
+.android{
+    width: 114px;
+    margin-top: 29px;
+}
+
+
+.inline > li:nth-child(1) {
+    color: #9f9f9f;
+    font-size: 18px;
+
+}
+.inline > li:nth-child(2) {
+    font-size: 8px;
+    color: #9f9f9f;
+}
+.inline > li:nth-child(3) {
+    font-size: 15px;
+    color: #9f9f9f;
+}
+
+.norton{
+    width: 114px;
+    margin-left: 518px;
+    margin-top: -66px;
+    position: absolute;
+
+}
