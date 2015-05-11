@@ -228,17 +228,15 @@
 }
 
 .footer-list > ul > li{
-    color: #cccccc;
     padding-bottom: 15px;
+    font-size: 12px;
+    color: #ffffff;
 }
 
 .footer-list ul > li:first-child{
     font-size: 18px;
 }
 
-.samll{
-    font-size: 12px;
-}
         /*+++++++++Footer-Soc++++++++*/
 
 .footer-soc{
