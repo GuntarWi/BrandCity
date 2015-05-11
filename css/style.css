@@ -171,10 +171,26 @@
         /*+++++++++Contact down row++++++++*/
 .col-1{
     background-color: #eeeeee;
+    text-align: center;
 }
 
-.col-1-a{
-    padding-left: 40px;
+.t-link{
+    color: skyblue;
+}
+
+.btn-blue{
+    text-decoration: none;
+    background-color: deepskyblue;
+    color: #ffffff;
+    padding: 10px 70px 10px 70px;
+    margin-bottom: 5px;
+    border-radius: 2px;
+    display: block;
+}
+
+.link{
+    display: block;
+    color: deepskyblue;
 }
 /*==========Footer-a=======*/
 
