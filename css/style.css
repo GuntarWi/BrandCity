@@ -152,7 +152,7 @@
 }
 
 .avisa-continer :nth-child(2){
-    background-color: red;
+
 }
 /*==========Contact  information 3 block=======*/
 
@@ -311,7 +311,7 @@
 }
 .col-2 h3{
     position: relative;
-    margin-bottom: 19px;
+    margin-bottom: 10px;
     padding-top: 27px;
     padding-left: 27px;
     padding-right: 27px;
