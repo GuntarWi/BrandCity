@@ -1,0 +1,44 @@
+Index: css/style.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>windows-1251
+===================================================================
+--- css/style.css	(revision )
++++ css/style.css	(revision )
+@@ -169,7 +169,7 @@
+     margin-right: 65px;
+ }
+ 
+-        /*+++++++++Contact down row++++++++*/
++        /*+++++++++Contact down row a++++++++*/
+ .col-1{
+     background-color: #eeeeee;
+     text-align: center;
+@@ -190,15 +190,26 @@
+     background-color: deepskyblue;
+     color: #ffffff;
+     padding: 10px 70px 10px 70px;
+-    margin-bottom: 5px;
+     border-radius: 2px;
+     display: block;
++    margin-bottom: 22px;
+ }
+ 
+ .link{
+     display: block;
+     color: deepskyblue;
+ }
++
++/*+++++++++Contact down row b++++++++*/
++.col-2 h3{
++    position: relative;
++    bottom: 50px;
++}
++
++.col-2 p{
++    font-size: 32px;
++}
++
+ /*==========Footer-a=======*/
+ 
+ 
